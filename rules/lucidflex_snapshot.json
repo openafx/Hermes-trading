@@ -1,0 +1,37 @@
+{
+  "program": "LucidFlex",
+  "snapshot_date": "2026-10-18",
+  "account_verified": false,
+  "scope": "Research snapshot; confirm purchased account and rules before use",
+  "sources": {
+    "drawdown": "https://support.lucidtrading.com/en/articles/12945815-lucidflex-drawdown",
+    "evaluation": "https://support.lucidtrading.com/en/articles/12945790-lucidflex-evaluation-account",
+    "scaling": "https://support.lucidtrading.com/en/articles/12945808-lucidflex-scaling-plan",
+    "customization": "https://support.lucidtrading.com/en/articles/16226050-lucidflex-customization"
+  },
+  "sizes": {
+    "25000": {
+      "initial_max_loss_usd": 1000,
+      "evaluation_target_usd": 1250,
+      "max_evaluation_micros": 20
+    },
+    "50000": {
+      "initial_max_loss_usd": 2000,
+      "evaluation_target_usd": 3000,
+      "max_evaluation_micros": 40
+    },
+    "100000": {
+      "initial_max_loss_usd": 3000,
+      "evaluation_target_usd": 6000,
+      "max_evaluation_micros": 60
+    },
+    "150000": {
+      "initial_max_loss_usd": 4500,
+      "evaluation_target_usd": 9000,
+      "max_evaluation_micros": 100
+    }
+  },
+  "eod_locked_floor_offset_usd": 100,
+  "session_rollover_convention": "18:00 America/New_York, not broker-verified",
+  "dll_amount": null
+}

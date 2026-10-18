@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+.git
+data
+vendor
+.env
+*.sqlite*
+.venv

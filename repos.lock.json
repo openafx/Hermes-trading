@@ -1,0 +1,139 @@
+{
+  "format_version": 1,
+  "created_at": "2026-10-18",
+  "remote_deployment_verified": false,
+  "repositories": [
+    {
+      "id": "hermes",
+      "repo": "NousResearch/hermes-agent",
+      "canonical_repo": "NousResearch/hermes-agent",
+      "revision": "9e01b44dd23978f9ff40b7837467f3a9f1582130",
+      "ref": "main",
+      "source_url": "https://github.com/NousResearch/hermes-agent",
+      "license": "MIT",
+      "role": "existing",
+      "enabled_by_default": false,
+      "notes": "Existing Hermes is preserved; do not reinstall"
+    },
+    {
+      "id": "openbb",
+      "repo": "OpenBB-finance/OpenBB",
+      "canonical_repo": "openbq-org/OpenBB",
+      "revision": "cbf37e1f98a61d4e17ff1df43441fd4004774cac",
+      "ref": "develop",
+      "source_url": "https://github.com/openbq-org/OpenBB",
+      "license": "NOASSERTION",
+      "role": "data",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "investorskills",
+      "repo": "questflowai/investorskills",
+      "canonical_repo": "questflowai/investorskills",
+      "revision": "2844d7809a73c01e769c8c1c7ae8189788db4d9e",
+      "ref": "main",
+      "source_url": "https://github.com/questflowai/investorskills",
+      "license": "MIT",
+      "role": "skills",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "tradingagents",
+      "repo": "TauricResearch/TradingAgents",
+      "canonical_repo": "TauricResearch/TradingAgents",
+      "revision": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "ref": "main",
+      "source_url": "https://github.com/TauricResearch/TradingAgents",
+      "license": "Apache-2.0",
+      "role": "research",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "vibe",
+      "repo": "HKUDS/Vibe-Trading",
+      "canonical_repo": "HKUDS/Vibe-Trading",
+      "revision": "c546e877274e7d36056c042808e1a875d9081eb9",
+      "ref": "main",
+      "source_url": "https://github.com/HKUDS/Vibe-Trading",
+      "license": "MIT",
+      "role": "research",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "catalog",
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "canonical_repo": "paperswithbacktest/awesome-systematic-trading",
+      "revision": "ddfee8bb548bd6914191cb8fdb695d533ae16b0d",
+      "ref": "main",
+      "source_url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "license": null,
+      "role": "catalog",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "vectorbt",
+      "repo": "polakowo/vectorbt",
+      "canonical_repo": "polakowo/vectorbt",
+      "revision": "8bf3aff77e3d9cba0be0b00988d3a4831692e142",
+      "ref": "master",
+      "source_url": "https://github.com/polakowo/vectorbt",
+      "license": "NOASSERTION",
+      "role": "analytics",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "nautilus",
+      "repo": "nautechsystems/nautilus_trader",
+      "canonical_repo": "nautechsystems/nautilus_trader",
+      "revision": "27a8e54e7ac3c57d6cbf8891f0283dfbaee97317",
+      "ref": "v1.231.0",
+      "source_url": "https://github.com/nautechsystems/nautilus_trader",
+      "license": "LGPL-3.0",
+      "role": "simulation",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "pybroker",
+      "repo": "edtechre/pybroker",
+      "canonical_repo": "edtechre/pybroker",
+      "revision": "95e00fecb1006490601aca7e2e8de609f032e12d",
+      "ref": "master",
+      "source_url": "https://github.com/edtechre/pybroker",
+      "license": "NOASSERTION",
+      "role": "analytics",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "quantstats",
+      "repo": "ranaroussi/quantstats",
+      "canonical_repo": "ranaroussi/quantstats",
+      "revision": "9ef4c6d0a4ffe7831f6ebba6a5824fd33a90c05a",
+      "ref": "main",
+      "source_url": "https://github.com/ranaroussi/quantstats",
+      "license": "Apache-2.0",
+      "role": "analytics",
+      "enabled_by_default": true,
+      "notes": ""
+    },
+    {
+      "id": "dearvn",
+      "repo": "dearvn/tradovate-trading-bot",
+      "canonical_repo": "dearvn/tradovate-trading-bot",
+      "revision": "6056eb67539044a388161cfe280533915905ee84",
+      "ref": "main",
+      "source_url": "https://github.com/dearvn/tradovate-trading-bot",
+      "license": "MIT",
+      "role": "quarantine",
+      "enabled_by_default": false,
+      "notes": "Quarantined: known execution/reporting defects"
+    }
+  ]
+}
